@@ -2,9 +2,9 @@ package model;
 
 public abstract class ED {
 
-    private int[] estrutura;
-    private int contador;
-    private int maximo;
+    protected int[] estrutura;
+    protected int contador;
+    protected int maximo;
 
     public ED(int[] estrutura, int maximo){
         this.maximo = maximo;
